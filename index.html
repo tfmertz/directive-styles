@@ -10,7 +10,13 @@
     <body>
         <div class="container" ng-controller="NpcCtrl as npc">
             <ul>
-                <li shadow ng-repeat="item in npc.npcs"><img ng-src="{{item.img}}"><div overlay class="overlay"></div><p>{{item.name}}</p></li>
+                <li shadow ng-repeat="item in npc.npcs">
+                    <img ng-src="{{item.img}}">
+                    <div overlay class="overlay">
+                        <p>{{item.bio}}</p>
+                    </div>
+                    <p>{{item.name}}</p>
+                </li>
             </ul>
         </div>
 

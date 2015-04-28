@@ -44,3 +44,9 @@ li p {
     z-index: 100;
     display: none;
 }
+
+.overlay p {
+    text-shadow: none;
+    top: 0;
+    font-weight: 200;
+}

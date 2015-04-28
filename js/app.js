@@ -5,6 +5,8 @@ app.controller("NpcCtrl", function() {
     npc.npcs = [
         {name: "Master Castellan", bio: "Master of the Greenest Keep. He\'s seen many battles and is a competent leader", img: "img/castellan.jpg"},
         {name: "Governor Nighthill", bio: "Governor of the Greenest, he helps keep peace in this simple town.", img: "img/nighthill.jpg"},
+        {name: "Governor Nighthill", bio: "Governor of the Greenest, he helps keep peace in this simple town.", img: "img/nighthill.jpg"},
+        {name: "Governor Nighthill", bio: "Governor of the Greenest, he helps keep peace in this simple town.", img: "img/nighthill.jpg"},
     ];
 });
 
