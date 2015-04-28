@@ -7,6 +7,7 @@ app.controller("NpcCtrl", function($timeout) {
     //     {name: "Governor Nighthill", bio: "Governor of the Greenest, he helps keep peace in this simple town.", img: "img/nighthill.jpg"},
     //     {name: "Leosin Erlanthar", bio: "Monk and ultimate GOOD guy in the campaign...but you never know.", img: "img/leosin.png"},
     //     {name: "Langdedrosa Cyanwrath", bio: "The half-dragon that totally kicked spyro's ass.", img: "img/cyanwrath.png"},
+    //     {name: "Ratty McRatterson", bio: "Phuz met Ratty McRatterson by happenstance, but he has quickly become one of most important members of the party.", img: "img/ratty.png"},
     //
     // ];
 
