@@ -5,8 +5,9 @@ app.controller("NpcCtrl", function() {
     npc.npcs = [
         {name: "Master Castellan", bio: "Master of the Greenest Keep. He\'s seen many battles and is a competent leader", img: "img/castellan.jpg"},
         {name: "Governor Nighthill", bio: "Governor of the Greenest, he helps keep peace in this simple town.", img: "img/nighthill.jpg"},
-        {name: "Governor Nighthill", bio: "Governor of the Greenest, he helps keep peace in this simple town.", img: "img/nighthill.jpg"},
-        {name: "Governor Nighthill", bio: "Governor of the Greenest, he helps keep peace in this simple town.", img: "img/nighthill.jpg"},
+        {name: "Leosin Erlanthar", bio: "Monk and ultimate GOOD guy in the campaign...but you never know.", img: "img/leosin.png"},
+        {name: "Langdedrosa Cyanwrath", bio: "The half-dragon that totally kicked spyro's ass.", img: "img/cyanwrath.png"},
+
     ];
 });
 
