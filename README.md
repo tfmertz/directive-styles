@@ -1,6 +1,6 @@
 # Custom CSS Directive
 
-#### April 27, 2015
+#### April 28, 2015
 
 
 ### Developers
@@ -8,10 +8,11 @@ Tom Mertz & Brian Kropff
 
 
 ## Description
-This is a web app that changes the view based on user interact and mouse events.
+This is a web app uses angular to display information and images of projects held in a firebase database.
 
 ## Technologies Used
 <a href='https://angularjs.org/'>AngularJS</a> <br>
+<a href='https://www.firebase.com/'>Firebase</a>
 Javascript
 
 
