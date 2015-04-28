@@ -1,0 +1,46 @@
+body {
+    background-color: ghostwhite;
+}
+
+li {
+    position: relative;
+    width: 254px;
+    height: 189px;
+    padding: 0;
+    border: 6px solid #555;
+    margin: 0 22px 20px -3px;
+    float: left;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+li img {
+    width: 254px;
+}
+
+li p {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.shadow {
+    box-shadow: 0 1px 12px #777;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(26,163,219,0.9);
+    z-index: 100;
+    display: none;
+}

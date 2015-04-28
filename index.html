@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="NPC">
+    <head>
+        <script src="js/angular.js"></script>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>DnD NPC Guide</title>
+    </head>
+    <body>
+        <div class="container" ng-controller="NpcCtrl as npc">
+            <ul>
+                <li shadow ng-repeat="item in npc.npcs"><img ng-src="{{item.img}}"><div overlay class="overlay"></div><p>{{item.name}}</p></li>
+            </ul>
+        </div>
+
+
+
+    </body>
+</html>
